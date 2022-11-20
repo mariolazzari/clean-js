@@ -1,0 +1,23 @@
+{
+  "name": "clean-js-tdt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariolazzari/clean-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariolazzari/clean-js/issues"
+  },
+  "homepage": "https://github.com/mariolazzari/clean-js#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}

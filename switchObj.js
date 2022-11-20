@@ -1,5 +1,3 @@
-const today = new Date().getDay();
-
 function getDay(day) {
   switch (day) {
     case 0:
@@ -42,10 +40,4 @@ function getDayObj(day) {
   return days[day];
 }
 
-console.time("switch");
-console.log(getDay(today));
-console.timeEnd("switch");
-
-console.time("obj");
-console.log(getDayObj(today));
-console.timeEnd("obj");
+module.exports = { getDay, getDayObj };
